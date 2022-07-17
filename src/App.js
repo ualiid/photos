@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import Photo from './Photo';
 import data from './data';
+//another way
+//import data from './datta.js';
 function App() {
  const [loading,setLoading]=useState(false);
  const [photo,setPhoto]=useState([]);
